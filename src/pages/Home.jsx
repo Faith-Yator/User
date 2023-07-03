@@ -4,7 +4,7 @@ import HomeSecurity from "./HomeSecurity";
 import Card from "./Card";
 import SignIn from "./SignIn";
 import Ourservices from "./Ourservices";
-import Oursolutions from "./Oursolutions";
+import OurSolutions from "./OurSolutions";
 import AboutUs from "./AboutUs";
 import Contacts from "./Contacts";
 
@@ -21,7 +21,7 @@ function Home() {
         <Ourservices />
       </div>
       <div>
-        <Oursolutions />
+        <OurSolutions />
       </div>
       <div>
         <AboutUs />
