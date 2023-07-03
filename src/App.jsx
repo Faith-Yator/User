@@ -7,7 +7,7 @@ import OurSolutions from './pages/OurSolutions';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Contacts from './pages/Contacts';
-import OurServices from './pages/OurServices'; // Fixed import statement
+import Ourservices from './pages/Ourservices'; // Fixed import statement
 import Register from './pages/Register';
 import Logout from './pages/Logout';
 import SignIn from './pages/SignIn'
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/ourServices" element={<OurServices />} />
+        <Route path="/ourServices" element={<Ourservices />} />
         <Route path="/ourSolutions" element={<OurSolutions />} />
         <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/contacts" element={<Contacts />} />
