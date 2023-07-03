@@ -1,0 +1,89 @@
+ .our {
+     display: flex;
+    justify-content: space-evenly;
+    background-image: url('./home.jpg');
+   background-size: cover;
+   height: 75vh;
+   width:100%;
+   border-radius: 12px;
+  }
+  
+  .our img {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .service h1 {
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+  }
+  
+  .security {
+    padding: 50px;
+  }
+  
+  .site h1 {
+    color: brown;
+    text-decoration: underline;
+  }
+
+  
+  .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+  }
+  
+  .first-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+  }
+  
+  .first h1 {
+    padding: 1rem;
+    color: brown;
+    text-decoration: underline;
+  }
+  
+  .first-reverse h1 {
+    padding: 1rem;
+    color: brown;
+    text-decoration: underline;
+  }
+  
+  .aid {
+    position: relative;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  
+  .aid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  /* Media query for screens with a maximum width of 768px */
+   @media screen and (max-width: 750px) {
+    .first,
+    .first-reverse {
+      flex-direction: column;
+    }
+  
+    .aid {
+      width: 100%;
+    }
+  }
+     
