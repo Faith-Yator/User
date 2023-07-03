@@ -1,7 +1,7 @@
  .our {
      display: flex;
     justify-content: space-evenly;
-    background-image: url('./home.jpg');
+    background-image: url('../assets/home.jpg');
    background-size: cover;
    height: 75vh;
    width:100%;
